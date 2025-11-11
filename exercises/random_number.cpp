@@ -11,6 +11,6 @@ using namespace std;
 
 int main() {
     srand(time(nullptr));
-    int x = rand() % 50; //scelgo un range da 0 a 49
+    int x = rand() % 50;
     cout << "The random number is: " << x << endl;
 }
